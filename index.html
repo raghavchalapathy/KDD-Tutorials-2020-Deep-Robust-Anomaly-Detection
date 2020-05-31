@@ -94,24 +94,42 @@
 						<div class="container">
 
 							<header>
-								<h2>Outline</h2>
+								<h2>Outline: Deep Robust Anomaly Detection</h2>
 							</header>
 
-							<a href="#" class="image featured"><img src="images/pic08.jpg" alt="" /></a>
+							<a href="#" class="image featured"><img src="images/anomaly.jpg" alt="" /></a>
+							<div>
+							<ol align="left">
+							<div id="tab1">
+							<h1 style="font-size:36px;" align="left"> <b>Content </b> </h1>
+							<li > <a href="#" > Deep learning preliminaries for anomaly detection </a> </li>
+							<li>two
+								<ol>
+								<li>two.one</li>
+								<li>two.two</li>
+								<li>two.three</li>
+								</ol>
+							</li>   
+							</div>
+								
+							<div id="tab2">
+							<li>three 
+							<ol>
+								<li>three.one</li>
+								<li>three.two</li>
+								<ol>
+									<li>three.two.one</li>
+									<li>three.two.two</li>
+								</ol>
+								</ol>
+							</li>
+							<li>four</li>
+							</div>
+							</ol>
+							</div>
 
-							<nav>
-								<ul> 
-									<li><a href="#">primary link</a></li>
-									<li>
-									<a href="#">primary link</a>
-									<ul>
-										<li><a href="#">secondary link</a></li>
-										<li><a href="#">secondary link</a></li>
-									</ul>
-									</li>
-									<li><a href="#">primary link</a></li>
-								</ul>
-							</nav>
+
+
 						</div>
 					</section>
 
@@ -150,3 +168,23 @@
 
 	</body>
 </html>
+
+
+
+
+OL { counter-reset: item }
+LI { display: block }
+LI:before { content: counters(item, ".") " "; counter-increment: item; }
+
+<style>
+a:link {
+  color: blue;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:hover {
+  color: blue;
+  background-color: transparent;
+  text-decoration: underline;
+}
+</style>
