@@ -15,3 +15,6 @@ Good luck you have now setup your tutorial execution code environment.
 
 Please make sure you have Google colab extension installed, it is mandatory for executing the notebook using your google account login.
 
+****Important Note: The data from Sydney Harbour Bridge is Confidential hence downloading and resusing of it strictly prohibited, for all the other dataset shared, users may check with authors for permissions to resuse ***
+
+
